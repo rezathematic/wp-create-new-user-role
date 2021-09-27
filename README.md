@@ -128,7 +128,7 @@ function wpdocs_codex_book_init()
     "show_in_menu" => true,
     "query_var" => true,
     "rewrite" => ["slug" => "book"],
-    **"capability_type" => "post",**
+    "capability_type" => "post", // change "post" to another name
     "has_archive" => true,
     "hierarchical" => false,
     "menu_position" => null,
