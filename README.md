@@ -181,6 +181,10 @@ add_role($role, $role_display, [
 
 Everytime you create a new User Role, a new row is added to the database. To update the capabilities, you need to remove the role and add it with the new capabilities again.
 
+## Example
+
+You can refer to the example `user-role.php`
+
 ## Alternative option
 
 You can use the [User Role Editor](https://wordpress.org/plugins/user-role-editor/)
